@@ -1,0 +1,10 @@
+{
+  "platform": "pumpfun",
+  "initial_buy_sol": 0,
+  "max_creator_buy_sol": 0.05,
+  "slippage_pct": 10,
+  "priority_fee_sol": 0.00001,
+  "daily_time_utc": "08:00",
+  "dry_run": true,
+  "rpc_url": "https://api.mainnet-beta.solana.com"
+}

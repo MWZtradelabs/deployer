@@ -1,0 +1,35 @@
+[
+  {
+    "id": "coin_0001",
+    "name": "Sleepy Banana",
+    "ticker": "SLPBN",
+    "lore": "A banana that only trades at night.",
+    "image_path": "images/sleepy_banana.png",
+    "used": false,
+    "used_on_chain": null,
+    "deployed_at": null,
+    "contract_address": null
+  },
+  {
+    "id": "coin_0002",
+    "name": "Turbo Frog",
+    "ticker": "TRFRG",
+    "lore": "A frog who thinks every chart is a lily pad.",
+    "image_path": "images/turbo_frog.png",
+    "used": false,
+    "used_on_chain": null,
+    "deployed_at": null,
+    "contract_address": null
+  },
+  {
+    "id": "coin_0003",
+    "name": "Pixel Toaster",
+    "ticker": "PXTO",
+    "lore": "A toaster that went to space and came back warmer.",
+    "image_path": "images/pixel_toaster.png",
+    "used": false,
+    "used_on_chain": null,
+    "deployed_at": null,
+    "contract_address": null
+  }
+]

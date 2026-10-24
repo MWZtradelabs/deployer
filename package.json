@@ -1,0 +1,20 @@
+{
+  "name": "deployer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "once": "node --import tsx --env-file-if-exists=.env src/index.ts once",
+    "serve": "node --import tsx --env-file-if-exists=.env src/index.ts serve",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.8.0"
+  }
+}

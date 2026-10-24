@@ -1,0 +1,15 @@
+# Add this inside the existing app.mcga.site site, above the bot proxy.
+# The bot on 127.0.0.1:8787 keeps every other path.
+#
+# handle /deployer* {
+# 	reverse_proxy 127.0.0.1:8790
+# }
+# handle {
+# 	encode gzip
+# 	reverse_proxy 127.0.0.1:8787 {
+# 		flush_interval -1
+# 	}
+# }
+#
+# This machine's scout user cannot reload Caddy. Apply the block as root, then:
+# caddy validate --config /etc/caddy/Caddyfile && systemctl reload caddy
